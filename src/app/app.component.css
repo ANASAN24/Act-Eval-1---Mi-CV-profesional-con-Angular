@@ -19,10 +19,14 @@ header nav{
 aside{
   width: 25%;
   background-color: #172554;
+  padding: 20px;
+
 }
 
 main{
   background-color: #f1f5f9;
+  padding: 20px;
+    flex: 1;
 }
 
 footer{
