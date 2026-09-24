@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<header>
+
+  <div>
+    <h1>{{ this.title }}</h1>
+    <h1>{{ nombre }}</h1>
+    <h2>{{ estudios }}</h2>
+    <p>{{ frase }}</p>
+  </div>
+
+</header>
+
+
+<div class="main">
+
+  <aside>
+
+    <h2>CONTACTO</h2>
+
+    <p><strong>Ciudad:</strong></p>
+    <p>{{ ciudad }}</p>
+
+    <p><strong>Teléfono:</strong></p>
+    <p>{{ telefono }}</p>
+
+    <p><strong>Correo:</strong></p>
+    <p>{{ email }}</p>
+
+    <p><strong>GitHub:</strong></p>
+    <p>{{ github }}</p>
+
+
+    <h2>IDIOMAS</h2>
+
+    <p>{{ idioma1 }}</p>
+    <p>{{ idioma2 }}</p>
+
+  </aside>
+
+
+  <main>
+
+    <section>
+      <h2>Sobre mí</h2>
+
+      <p>{{ sobreMi }}</p>
+    </section>
+
+
+    <section>
+      <h2>Experiencia profesional</h2>
+
+      <h3>Desarrollador Web Junior</h3>
+      <p><strong>Tech Solutions</strong></p>
+      <p>2024 - Actualidad</p>
+
+      <p>
+        Desarrollo y mantenimiento de aplicaciones web utilizando
+        HTML, CSS, JavaScript y Angular.
+      </p>
+
+
+      <h3>Desarrollador Frontend</h3>
+      <p><strong>Digital Apps</strong></p>
+      <p>2022 - 2024</p>
+
+      <p>
+        Creación de interfaces web y desarrollo de componentes
+        reutilizables para diferentes proyectos.
+      </p>
+
+    </section>
+
+
+    <section>
+      <h2>Formación</h2>
+
+      <h3>Técnico Superior en Desarrollo de Aplicaciones Web</h3>
+
+      <p>IES Tecnológico</p>
+
+      <p>2020 - 2022</p>
+
+    </section>
+
+
+    <section>
+      <h2>Tecnologías</h2>
+
+      <p>HTML · CSS · JavaScript · TypeScript · Angular · Java · Git · GitHub</p>
+
+    </section>
+
+  </main>
+
+</div>
+
+
+<footer class="pie">
+
+  <p>Currículum desarrollado con Angular</p>
+  {{this.nombre}} {{this.fecha | date: 'dd/MM/yyyy'}}
+
+</footer>
+
+</body>
+</html>
