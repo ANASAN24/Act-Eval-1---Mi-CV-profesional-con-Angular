@@ -28,8 +28,23 @@ export class AppComponent {
   idioma1 = 'Español';
 
   idioma2 = 'Inglés';
+  idioma3 = 'Francés';
 
   sobreMi = 'Alumnna de 2ºDAM';
 
   fecha = new Date();
+
+  tecnologias = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'TypeScript',
+  'Angular',
+  'Java',
+  'Git',
+  'GitHub'
+];
+
+textoFooter = 'Currículum desarrollado con Angular';
+
 }
