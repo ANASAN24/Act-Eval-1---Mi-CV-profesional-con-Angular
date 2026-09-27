@@ -42,7 +42,8 @@ export class AppComponent {
   'Angular',
   'Java',
   'Git',
-  'GitHub'
+  'GitHub',
+  'C Sharp'
 ];
 
 textoFooter = 'Currículum desarrollado con Angular';
