@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+
+header {
+  background-color: #6B0F1A;
+  color: white;
+  padding: 35px 50px;
+}
+
+.titulo {
+  font-size: 15px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}

@@ -1,51 +1,18 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import {DatePipe, NgOptimizedImage} from '@angular/common';
+import { HeaderComponent } from './components/header/header.component';
+import { MainLayoutComponent } from './components/main-layout/main-layout.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, DatePipe, NgOptimizedImage],
+  imports: [
+    HeaderComponent,
+    MainLayoutComponent,
+    FooterComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'cv-angular';
-
-  nombre = 'Ana Isabel Sánchez Fernández';
-
-  estudios = 'Desarrollo de Aplicaciones Multiplataforma';
-
-  frase = 'Apasionada por el desarrollo y las nuevas tecnologías.';
-
-  ciudad = 'Málaga';
-
-  telefono = 'xxx-xxx-xxx';
-
-  email = 'email@gmail.com';
-
-  github = 'github.com/usuario';
-
-  idioma1 = 'Español';
-
-  idioma2 = 'Inglés';
-  idioma3 = 'Francés';
-
-  sobreMi = 'Alumnna de 2ºDAM';
-
-  fecha = new Date();
-
-  tecnologias = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'Angular',
-  'Java',
-  'Git',
-  'GitHub',
-  'C Sharp'
-];
-
-textoFooter = 'Currículum desarrollado con Angular';
 
 }

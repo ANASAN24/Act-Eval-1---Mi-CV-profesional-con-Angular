@@ -1,0 +1,54 @@
+<main>
+
+  <section>
+    <h2>Sobre mí</h2>
+
+    <img
+      ngSrc="foto-de-perfil.jpg"
+      width="200"
+      height="200"
+      alt="Foto de perfil"
+    >
+
+    <p>{{ sobreMi }}</p>
+  </section>
+
+
+  <section>
+    <h2>Experiencia profesional</h2>
+
+    <h3>Desarrolladora de Videojuegos</h3>
+
+    <p><strong></strong></p>
+
+    <p>2022 - 2023</p>
+
+    <p>
+      Prácticas de FP: C Sharp, Unity y Blender.
+    </p>
+
+  </section>
+
+
+  <section>
+    <h2>Formación</h2>
+
+    <h3>Animaciones 3D, Juegos y Entornos Interactivos</h3>
+
+    <p>CESUR - PTA</p>
+
+    <p>2021 - 2023</p>
+
+  </section>
+
+
+  <section>
+    <h2>Tecnologías</h2>
+
+    @for (tecnologia of tecnologias; track tecnologia) {
+      <span> · {{ tecnologia }}</span>
+    }
+
+  </section>
+
+</main>

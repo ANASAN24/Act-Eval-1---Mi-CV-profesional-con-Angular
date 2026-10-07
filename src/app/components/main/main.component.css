@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  flex: 1;
+  min-width: 0;
+}
+
+main {
+  box-sizing: border-box;
+  background-color: #fff5f2;
+  padding: 30px;
+  color: #0E0004;
+}
+
+main h2 {
+  color: #6B0F1A;
+  margin-bottom: 12px;
+}
+
+main h3 {
+  color: #31081F;
+  margin-bottom: 5px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+main p {
+  line-height: 1.5;
+}

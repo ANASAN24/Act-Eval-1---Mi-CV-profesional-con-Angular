@@ -16,3 +16,8 @@ app-root {
   display: flex;
   flex-direction: column;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
